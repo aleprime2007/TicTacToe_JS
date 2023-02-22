@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(31, 31, 34);
+    font-family: arial;
+    overflow: hidden;
+}
+
+.game{
+    width: 97vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+
+}
+
+.table{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(3, auto);
+    margin:auto;
+}
+
+.fila1{
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    width: 500px;
+    top: 70px;
+}
+
+.fila2{
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    width: 500px;
+    top: 225px;
+}
+
+.fila3{
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    width: 500px;
+    top: 380px;
+}
+/*Filas*/
+
+/*Lineas Divisoras*/
+hr{
+    position: absolute;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.hr1{
+    height: 495px;
+    width: 15px;
+    margin-right: 170px;
+}
+.hr2{
+    height: 495px;
+    width: 15px;
+    margin-left: 170px;
+}
+.hr3{
+    height: 15px;
+    width: 495px;
+    margin-top: 150px;
+}
+.hr4{
+    height: 15px;
+    width: 495px;
+    margin-bottom: 180px;
+}
+/*Lineas Divisoras*/
+
+/*Cuadrados*/
+.cuadro{
+    background-color: yellowgreen;
+    width: 165px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.equis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    color: rgb(246, 245, 255);
+    opacity: 1;
+}
+
+.circulo{
+    position: absolute;
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    border: 18px solid rgb(26, 59, 207);
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+/*Cuadrados*/
