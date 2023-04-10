@@ -1,0 +1,59 @@
+.gano{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 100rem;
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    top: 60px;
+    z-index: 2000;
+    top: 0;
+}
+
+.titulo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+    width: 100vw;
+    height: 30vh;
+}
+
+.button{
+    position: absolute;
+    top: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    font-size: 20px;
+    border: 5px solid white;
+    border-radius: 30px;
+    height: 40px;
+    width: 160px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    background: none;
+}
+
+.button button:hover{
+    background: rgb(55, 55, 83);
+    transition: 0.5s;
+}
